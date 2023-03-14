@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>first project bootstrap</title>
+  <!-- font awosome library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top w-100 p-0 shadow">
+    <div class="container ">
+      <img src="./images/pexels-anna-shvets-5711890 (2).jpg" alt="" />
+      <a class="navbar-brand logo" href="#"> WooDY</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active items text-uppercase" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark text-uppercase" href="about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark text-uppercase" href="service.html">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black text-uppercase" href="#">project</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDarkDropdownMenuLink"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              pages
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">feature</a></li>
+              <li><a class="dropdown-item" href="#">free quote</a></li>
+              <li><a class="dropdown-item" href="#">our team</a></li>
+              <li><a class="dropdown-item" href="#">testimonials</a></li>
+              <li><a class="dropdown-item" href="#">404 pages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link text-dark text-uppercase">contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-light" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+          
+        </form>
+      </div>
+      
+
+
+    </div>
+
+
+  </nav>
+  <!-- end navbar -->
+
+
+  <!-- start carsoul -->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <div class="container">
+          <h5 class="text-uppercase">welcome to woody</h5>
+          <!-- <h1 class="">best carpenter&<br>craft services</h1> -->
+          <a href="#" class="btn btn-lg btn-brown link-light">read more</a>
+          <a href="" class="btn btn-lg btn-light link-dark"> free quote</a>
+        </div>
+      </div>
+      <div class="carousel-item ">
+
+        <div class="container " data--duration="3s">
+          <h5 class="text-uppercase">welcome to woody</h5>
+
+          <a href="#" class="btn btn-lg btn-brown link-light">read more</a>
+          <a href="" class="btn btn-lg btn-light link-dark "> free quote</a>
+        </div>
+      </div>
+
+      <div class="carousel-item ">
+
+        <div class="container">
+          <h5 class="text-uppercase">welcome to woody</h5>
+
+          <a href="#" class="btn btn-lg btn-brown link-light">read more</a>
+          <a href="" class="btn btn-lg btn-light link-dark "> free quote</a>
+        </div>
+      </div>
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+      <span class="sr-only">previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+      <span class="sr-only">next</span>
+      <div class="carousel-control-next-icon" aria-hidden="true"></div>
+    </a>
+
+  </div>
+
+  <!-- end carsoul -->
+
+  <main>
+    <article>
+      <!-- start home -->
+      <section class="home">
+        <div class="container">
+          <div class="home-container">
+            <h2>WELCOME TO WOODY</h2>
+            <p>best carpenter&craft services</p>
+            <button class="btn btn-out-line-brown"> Learn More</button>
+          </div>
+
+        </div>
+      </section>
+      <!-- start common section -->
+      <div class="common">
+      </div>
+
+      <!--start accrodation -->
+      <section>
+        <h2 class="text-center" style="color: #fff;background-color:#f3b47ecb;font-size: 25px;">Types of wood</h2>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed fa-3x" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Woody plants
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+                voluptatem excepturi culpa ducimus fugiat. Enim ipsa porro impedit saepe deserunt voluptatibus laborum
+                quas necessitatibus expedita aut, molestiae iure sit odit?</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Oriental bittersweet
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quis
+                quos voluptas nam nemo deserunt in omnis reiciendis repellendus, laudantium mollitia porro amet
+                accusantium, iste eum nostrum fugit eius numquam?</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Climbing hydrangea
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                happening here in terms of content, but just filling up the space to make it look, at least at first
+                glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="common">
+      </div>
+      <section class="home">
+        <div class="container">
+          <div class="home-container">
+            <h2>Why Choose Us</h2>
+            <button type="button" class="btn btn-out-line-brown" data-bs-container="body" data-bs-toggle="popover"
+              data-bs-placement="bottom" data-bs-content="Bottom popover">
+              copy
+            </button>
+            <pre style="font-size: 20px;"><code class="text-black-50" id="mypython">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+            </code>
+          </pre>
+
+          </div>
+
+        </div>
+      </section>
+      <div class="common">
+      </div>
+      <section class="home">
+        <div class="container">
+          <div class="home-container">
+            <h2>About Us</h2>
+            <button type="button" class="btn btn-out-line-brown" data-bs-container="body" data-bs-toggle="popover"
+              data-bs-placement="bottom" data-bs-content="Bottom popover">
+              copy
+            </button>
+            <pre style="font-size: 20px;"><code class="text-black" id="mypython">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+            </code>
+          </pre>
+
+          </div>
+
+        </div>
+      </section>
+      <div class="common">
+      </div>
+      <section class="home">
+        <div class="container">
+          <div class="home-container">
+            <h2>Free Quote</h2>
+            <button type="button" class="btn btn-out-line-brown" data-bs-container="body" data-bs-toggle="popover"
+              data-bs-placement="bottom" data-bs-content="Bottom popover">
+              copy
+            </button>
+            <pre style="font-size: 20px;"><code class="text-black-50" id="mypython">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+            </code>
+          </pre>
+
+          </div>
+
+        </div>
+      </section>
+      <div class="common">
+      </div>
+
+
+
+
+      <!-- end accrodation -->
+
+      <!-- end common section -->
+      <!-- end home -->
+      <!-- start services -->
+      <div class="static-bg"
+        style="background-image: url(./images/carousel-1.jpg); width: 100%; height: 40vh;background-attachment: fixed; background-size:cover;background-position: top;">
+
+      </div>
+      <section class="service">
+        <div class="services ">
+          <h1 class="">Our Services</h1>
+          <div class="container pt-5">
+            <div class="row">
+              <div class=" col-md-6 col-lg-3  mb-4">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-1.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>General Carpentry</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class=" col-md-6 col-lg-3  mb-4 ">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-2.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>Furniture Manufacturing</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3  mb-4">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-3.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>Furniture Remodeling</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3  mb-4 ">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-4.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>Wooden Floor</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row mt-5">
+              <div class=" col-md-6 col-lg-4  mb-4 ">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-5.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>Wooden Furniture</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4  mb-4 ">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-6.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>Custom Work</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4  mb-4">
+                <div class="overflow-hidden">
+                  <img class="img-fluid" src="images/service-2.jpg" alt="" srcset="">
+                </div>
+                <div class="box">
+                  <h3>Custom Work</h3>
+                  <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end services -->
+      <!-- start static -->
+      <div class="static-bg"
+        style="background-image: url(./images/carousel-1.jpg); width: 100%; height: 40vh;background-attachment: fixed; background-position: bottom; background-size: cover;">
+
+      </div>
+      <!-- end static -->
+
+      <!-- start team member -->
+      <section class="teams">
+        <div class="team-member">
+          <h1>Team Members</h1>
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-3 position-relative  Up" ="0.4s">
+                <div class="team-item ">
+                  <div class="overflow-hidden position-relative ">
+                    <img src="images/team-1.jpg" class="img-fluid" alt="" srcset="">
+                    <div class="show-icon">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <h5>Full Name</h5>
+                    <span>Designation</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-3 position-relative  Up" ="0.8s">
+                <div class="team-item ">
+                  <div class="overflow-hidden position-relative ">
+                    <img src="images/team-2.jpg" class="img-fluid" alt="" srcset="">
+                    <div class="show-icon">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <h5>Full Name</h5>
+                    <span>Designation</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-3 position-relative">
+                <div class="team-item ">
+                  <div class="overflow-hidden position-relative ">
+                    <img src="images/team-3.jpg" class="img-fluid" alt="" srcset="">
+                    <div class="show-icon">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <h5>Full Name</h5>
+                    <span>Designation</span>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end team member -->
+      <!-- start icon section -->
+      <section>
+        <div class="icons">
+          <h1 class="line">Creativity</h1>
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-3  " >
+                <div class="box">
+                  <h5>Creative Designers</h5>
+                  <i class="fas fa-user-plus "></i>
+                  <a href="">Go To Link</a>
+
+                </div>
+              </div>
+              <div class=" col-sm-12 col-md-6 col-lg-3 mb-3  " >
+                <div class="box">
+                  <h5>Quality Products</h5>
+                  <i class="fas fa-signature"></i>
+                  <a href="">Go To Link</a>
+                </div>
+              </div>
+              <div class=" col-sm-12 col-md-6 col-lg-3 mb-3  ">
+                <div class="box">
+                  <h5>Free Consultation</h5>
+                  <i class="fas fa-broadcast-tower"></i>
+                  <a href="">Go To Link</a>
+                </div>
+              </div>
+              <div class=" col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="box">
+                  <h5>Customer Support</h5>
+                  <i class="fas fa-headphones"></i>
+                  <a href="">Go To Link</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end icon section -->
+      <!-- start footer -->
+      <div class="footer ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <hr>
+              <h2 class="text-center" style="color: #fff;">Address</h2>
+              <hr>
+              <div class="icon-foot">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 Street, New York, USA</span>
+              </div>
+              <div class="icon-foot">
+                <i class="fas fa-phone"></i>
+                <span>+012 345 67890</span>
+              </div>
+              <div class="icon-foot">
+                <i class="fas fa-envelope-open"></i>
+                <span>info@example.com</span>
+              </div>
+              <div class="icon-contact">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-linkedin"></i>
+              </div>
+            </div>
+            <div class=" col-md-6 col-lg-3">
+              <hr>
+              <h2 class="text-center" style="color: #fff;">Services</h2>
+              <hr>
+              <ul class="lists">
+                <li><a href="#">General Carpentry</a></li>
+                <li><a href="#">furnture Remondeling</a></li>
+                <li><a href="#">Wooden Floor</a></li>
+                <li><a href="#">Wooden furnture</a></li>
+                <li><a href="#">Custom Carpentry</a></li>
+              </ul>
+
+            </div>
+            <div class=" col-md-6 col-lg-3">
+              <hr>
+              <h2 class="text-center" style="color: #fff;">Quick Links</h2>
+              <hr>
+              <ul class="lists">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Terms &Conditon</a></li>
+                <li><a href="#">Supports</a></li>
+              </ul>
+
+            </div>
+            <div class=" col-md-6 col-lg-3">
+              <hr>
+              <h2 class="text-center" style="color: #fff;">Newsletter</h2>
+              <hr>
+              <p>Dolor amet sit justo amet elitr clita ipsum elitr est</p>
+              <form action="">
+                <input type="email" name="" id="" class="form-control border-0" placeholder="Your Email">
+                <button type="button" class="py-2 ">Sign Up</button>
+              </form>
+            </div>
+          </div>
+          <hr>
+          <div class="text-center">
+            <span class=""><a href="#"> &copy;Your site name</a>, All Right Reserved.</span>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- end footer -->
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
